@@ -1,9 +1,9 @@
 {
-  "name": "vue-beautiful-chat",
+  "name": "@ssafeluck/vue-beautiful-chat",
   "version": "2.3.1",
   "description": "A simple and beautiful Vue chat component backend agnostic.",
   "main": "./src/index.js",
-  "repository": "https://github.com/mattmezza/vue-beautiful-chat.git",
+  "repository": "https://github.com/ssafeluck/vue-beautiful-chat.git",
   "author": "Matteo Merola <mattmezza@gmail.com>",
   "license": "MIT",
   "keywords": [
