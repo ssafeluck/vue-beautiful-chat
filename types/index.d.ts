@@ -13,3 +13,18 @@ export interface PluginOptions {
  * Call `Vue.use(Chat)` to install.
  */
 export function install (vue: typeof Vue, options: PluginOptions): void
+
+
+
+/**
+ *  import module images
+ */
+declare module "*.svg";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.gif";
+declare module "*.bmp";
+declare module "*.tiff";
+
+
