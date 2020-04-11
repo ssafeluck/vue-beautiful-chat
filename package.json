@@ -1,11 +1,12 @@
 {
-  "name": "@ssafeluck/vue-beautiful-chat",
-  "version": "2.3.1",
+  "name": "vue-beautiful-chat-fork-qcw",
+  "version": "2.3.2",
   "description": "A simple and beautiful Vue chat component backend agnostic.",
   "main": "./src/index.js",
   "repository": "https://github.com/ssafeluck/vue-beautiful-chat.git",
   "author": "Matteo Merola <mattmezza@gmail.com>",
   "license": "MIT",
+  "typings": "types/index.d.ts",
   "keywords": [
     "vue",
     "vuejs",

@@ -1,3 +1,6 @@
+
+# add typescript  decare
+
 # vue-beautiful-chat
 
 `vue-beautiful-chat` provides an intercom-like chat window that can be included easily in any project for free. It provides no messaging facilities, only the view component.
