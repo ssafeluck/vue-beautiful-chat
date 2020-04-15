@@ -5,6 +5,11 @@ import Vue, { VNodeDirective, PluginObject } from 'vue'
 export interface PluginOptions {     
     componentName?: string
 }
+
+export interface   Message 
+{
+
+}
  
 
  /**
@@ -14,17 +19,5 @@ export interface PluginOptions {
  */
 export function install (vue: typeof Vue, options: PluginOptions): void
 
-
-
-/**
- *  import module images
- */
-declare module "*.svg";
-declare module "*.png";
-declare module "*.jpg";
-declare module "*.jpeg";
-declare module "*.gif";
-declare module "*.bmp";
-declare module "*.tiff";
 
 
