@@ -44,7 +44,7 @@
 <script>
 import TextMessage from './messages/TextMessage.vue'
 import FileMessage from './messages/FileMessage.vue'
-import ImageMessage from './messages/ImageMessage'
+import ImageMessage from './messages/ImageMessage.vue'
 import EmojiMessage from './messages/EmojiMessage.vue'
 import TypingMessage from './messages/TypingMessage.vue'
 import SystemMessage from './messages/SystemMessage.vue'
