@@ -1,6 +1,6 @@
 {
   "name": "vue-beautiful-chat-fork-qcw",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "A simple and beautiful Vue chat component backend agnostic.",
   "main": "./src/index.js",
   "repository": "https://github.com/ssafeluck/vue-beautiful-chat.git",

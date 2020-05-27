@@ -30,6 +30,7 @@
           </template>
       </TextMessage>
       <EmojiMessage v-else-if="message.type === 'emoji'" :data="message.data" />
+      <ImageMessage v-else-if="message.type === 'image'" :data="message.data" />
       <FileMessage v-else-if="message.type === 'file'" :data="message.data" :messageColors="determineMessageColors()" />
       <TypingMessage v-else-if="message.type === 'typing'" :messageColors="determineMessageColors()" />
       <SystemMessage v-else-if="message.type === 'system'" :data="message.data" :messageColors="determineMessageColors()">
@@ -43,6 +44,7 @@
 <script>
 import TextMessage from './messages/TextMessage.vue'
 import FileMessage from './messages/FileMessage.vue'
+import ImageMessage from './messages/ImageMessage'
 import EmojiMessage from './messages/EmojiMessage.vue'
 import TypingMessage from './messages/TypingMessage.vue'
 import SystemMessage from './messages/SystemMessage.vue'
@@ -59,6 +61,7 @@ export default {
     TextMessage,
     FileMessage,
     EmojiMessage,
+    ImageMessage,
     TypingMessage,
     SystemMessage
   },
