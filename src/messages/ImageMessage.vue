@@ -2,10 +2,7 @@
   <div class="sc-message--file" :style="messageColors">
     <div class="sc-message--file-icon">
       <img :src="data.url" class="sc-image" />
-    </div>
-    <div class="sc-message--file-text" :style="messageColors">
-      <p v-if="data.meta" class="sc-message--meta" :style="messageColors">{{data.meta}}</p>
-    </div>
+    </div>   
   </div>
 </template>
 
