@@ -285,7 +285,7 @@ export default {
 .sc-user-input--buttons {
   width: 100px;
   position: absolute;
-  right: 20px;
+  right: 10px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
